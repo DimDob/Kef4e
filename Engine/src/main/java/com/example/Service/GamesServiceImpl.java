@@ -15,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -44,7 +45,11 @@ public class GamesServiceImpl implements GamesService {
 
             for (Game game : games) {
                 game.setId(UUID.randomUUID());
-                crudService.saveInRepository(game);
+                if (gamesRepository.findByTitle(game.getTitle()).isEmpty()) {
+                    gamesRepository.save(game);
+                    log.info("Saving game {} into repository", game);
+
+                }
             }
 
         } catch (JsonProcessingException e) {
@@ -54,14 +59,21 @@ public class GamesServiceImpl implements GamesService {
     }
 
     private Page<Game> getPageable(PageRequest pageable) {
-        int totalElements = (int) gamesRepository.count();
-        int pageSize = Integer.MAX_VALUE; //set to 20 per page
         int pageNumber = pageable.getPageNumber();
+        int pageSize = 20;
 
         pageable = PageRequest.of(pageNumber, pageSize);
-        List<Game> games = gamesRepository.findAll(pageable).getContent();
-        Page<Game> page = new PageImpl<>(games, pageable, totalElements);
 
-        return page;
+        return gamesRepository.findAll(pageable);
+    }
+
+
+    public Optional<Game> getGame(String title) {
+
+        Optional<Game> game = gamesRepository.findByTitle(title);
+        if (game.isEmpty()) {
+            log.info("Game with title " + title + " has not been found!");
+        }
+        return game;
     }
 }

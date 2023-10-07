@@ -1,33 +1,34 @@
 package com.example.Controller;
 
-
 import com.example.Entity.Game;
 import com.example.Service.GamesService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.List;
+import java.util.Optional;
 
 @RestController
-@RequestMapping
+@RequestMapping("/games")
 @CrossOrigin(origins = {"*"}, maxAge = 4800, allowCredentials = "false")
 public class GamesController {
     private final GamesService gamesService;
-
-    private final String baseAPI = "https://www.freetogame.com/";
+    private final String baseApi = "https://www.freetogame.com/api/games";
 
     public GamesController(GamesService gamesService) {
         this.gamesService = gamesService;
     }
 
-    @GetMapping(value = "/games")
-    public Page<Game> getGamesFromApi(Pageable pageable) throws IOException {
-        return gamesService.save(baseAPI + "/api/games", pageable);
+    @GetMapping
+    public Page<Game> getGamesFromApi(@RequestParam(defaultValue = "0") int page, Pageable pageable) throws IOException {
+        String apiUrl = baseApi + "?page=" + page;
+        return gamesService.save(apiUrl, pageable);
     }
 
+    @GetMapping(value =  "/{gameTitle}")
+    @ResponseBody
+    public Optional<Game> getGame(@PathVariable String gameTitle) {
+        return gamesService.getGame(gameTitle);
+    }
 }
