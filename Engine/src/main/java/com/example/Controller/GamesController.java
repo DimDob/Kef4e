@@ -14,7 +14,6 @@ import java.util.Optional;
 @CrossOrigin(origins = {"*"}, maxAge = 4800, allowCredentials = "false")
 public class GamesController {
     private final GamesService gamesService;
-    private final String baseApi = "https://www.freetogame.com/api/games";
 
     public GamesController(GamesService gamesService) {
         this.gamesService = gamesService;
@@ -22,6 +21,7 @@ public class GamesController {
 
     @GetMapping
     public Page<Game> getGamesFromApi(@RequestParam(defaultValue = "0") int page, Pageable pageable) throws IOException {
+        String baseApi = "https://www.freetogame.com/api/games";
         String apiUrl = baseApi + "?page=" + page;
         return gamesService.save(apiUrl, pageable);
     }
@@ -30,5 +30,29 @@ public class GamesController {
     @ResponseBody
     public Optional<Game> getGame(@PathVariable String gameTitle) {
         return gamesService.getGame(gameTitle);
+    }
+
+    @GetMapping(value = "/genre={genre}")
+    @ResponseBody
+    public Page<Game> sortByGenre(
+            @PathVariable String genre,
+            @RequestParam(name = "page", defaultValue = "0") int page, Pageable pageable) {
+        return gamesService.sortByGenre(genre, pageable);
+    }
+
+    @GetMapping(value ="/developer={developer}")
+    @ResponseBody
+    public Page<Game> getByDeveloper(
+            @PathVariable String developer,
+            @RequestParam(name = "page", defaultValue = "0") int page, Pageable pageable) {
+        return gamesService.getByDeveloper(developer, pageable);
+    }
+
+    @GetMapping(value = "/platform={platform}")
+    @ResponseBody
+    public Page<Game> getByPlatform(
+            @PathVariable String platform,
+            @RequestParam(name="page", defaultValue = "0") int page, Pageable pageable) {
+        return gamesService.getByPlatform(platform, pageable);
     }
 }

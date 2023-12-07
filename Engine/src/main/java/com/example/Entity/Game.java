@@ -5,14 +5,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
-import org.hibernate.annotations.GenericGenerator;
 
 import java.util.Date;
 import java.util.UUID;
 
 @Data
-@RequiredArgsConstructor
 @Entity
 @Table(name = "Games")
 public class Game {

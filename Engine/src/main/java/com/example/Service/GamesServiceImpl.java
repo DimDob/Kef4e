@@ -7,30 +7,24 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.UUID;
+import java.util.*;
 
 @Service
 @Slf4j
 public class GamesServiceImpl implements GamesService {
 
     private final ObjectMapper objectMapper;
-    private final CRUDService crudService;
 
     @Autowired
     private GamesRepository gamesRepository;
 
     public GamesServiceImpl(ObjectMapper objectMapper, CRUDService crudService) {
         this.objectMapper = objectMapper;
-        this.crudService = crudService;
     }
 
     public Page<Game> save(String json, Pageable pageable) {
@@ -55,7 +49,7 @@ public class GamesServiceImpl implements GamesService {
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
-        return getPageable((PageRequest) pageable);
+            return getPageable((PageRequest) pageable);
     }
 
     private Page<Game> getPageable(PageRequest pageable) {
@@ -76,4 +70,35 @@ public class GamesServiceImpl implements GamesService {
         }
         return game;
     }
+
+    public Page<Game> sortByGenre(String genre, Pageable pageable) {
+        return findByGenre(genre, pageable);
+    }
+
+    private Page<Game> findByGenre(String genre, Pageable pageable) {
+        Page<Game> games = gamesRepository.findByGenre(genre, pageable);
+        if (games.isEmpty()) {
+            log.info("Games from genre: " + genre + " have not been found!");
+        }
+        return games;
+    }
+
+    public Page<Game> getByDeveloper(String developer, Pageable pageable) {
+        Page<Game> games = gamesRepository.findByDeveloper(developer, pageable);
+        if (games.isEmpty()) {
+            log.info("Games from developer " + developer + "have not been found!");
+        }
+        return games;
+    }
+
+    @Override
+    public Page<Game> getByPlatform(String platform, Pageable pageable) {
+        Page<Game> games = gamesRepository.findByPlatform(platform, pageable);
+        if (games.isEmpty()) {
+            log.info("There are not games for " + platform);
+        }
+        return games;
+    }
+
+
 }

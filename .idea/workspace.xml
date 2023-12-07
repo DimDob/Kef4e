@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5e29fcb-f9ec-4744-8718-c00034ae4f5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -13,13 +15,48 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Controller/GamesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Controller/GamesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Entity/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Repository/GamesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Repository/GamesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/CRUDService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/CRUDService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/GamesController.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/GamesController.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/GamesServiceImpl.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Controller/GamesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Controller/GamesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Entity/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Entity/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Repository/GamesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Repository/GamesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/CRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/CRUDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/classes/com.example.demo.Kef4eApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/classes/com.example.demo.Kef4eApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/packages/com.example.demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/packages/com.example.demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/TEST-com.example.demo.Kef4eApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/TEST-com.example.demo.Kef4eApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +82,54 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Engine" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Engine" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Engine" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Engine" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Frontend" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Frontend" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Frontend" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -63,6 +147,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -77,20 +164,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dimitar.dobrev/Desktop/DimDob/Kef4e&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dimitar.dobrev/Desktop/Kef4e/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Kef4e.executor": "Run",
+    "Gradle.Kef4e [bootRun].executor": "Run",
+    "Gradle.Kef4e:Engine [:Engine:BackendEngine.main()].executor": "Run",
+    "Gradle.Kef4e:Engine [build].executor": "Run",
+    "Gradle.Kef4e:Frontend [bootRun].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/amd/Desktop/Kef4e",
+    "onboarding.tips.debug.path": "/Users/dimitar.dobrev/Desktop/Kef4e/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Frontend" />
@@ -99,39 +192,13 @@
   </component>
   <component name="RunManager" selected="Application.BackendEngine">
     <configuration name="BackendEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../jdk-17_windows-x64_bin/jdk-17.0.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.BackendEngine" />
       <module name="demo.Engine.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Frontend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.Frontend" />
-      <module name="demo.Frontend.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.Frontend" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kef4eApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.Kef4eApplication" />
-      <module name="demo.Frontend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.Kef4eApplication" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,15 +272,45 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Kef4e:Frontend [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Frontend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Kef4e [bootRun]" />
         <item itemvalue="Gradle.Kef4e:Engine [build]" />
+        <item itemvalue="Gradle.Kef4e [bootRun]" />
+        <item itemvalue="Gradle.Kef4e:Frontend [bootRun]" />
         <item itemvalue="Application.BackendEngine" />
         <item itemvalue="Gradle.Kef4e [dependencies]" />
-        <item itemvalue="Application.Frontend" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+        <option value="jdk-19.0.2-corretto-19.0.2-8336523bb0d9-b81783ad" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -226,33 +323,48 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Engine/src/main/java/com/example/Service/CRUDService.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Engine/src/main/java/com/example/Controller/GamesController.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java</url>
-          <line>72</line>
+          <line>66</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java</url>
-          <line>73</line>
+          <line>67</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
