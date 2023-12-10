@@ -18,6 +18,7 @@ public class CRUDService {
     public Game saveInRepository(Game game) {
         Optional<Game> existingGame = gamesRepository.findByTitle(game.getTitle());
         if (existingGame.isPresent()) {
+            System.out.println("hjere");
             log.info("Game with title '{}' already exists in the repository!", game.getTitle());
         } else {
             log.info("Saving game: {}", game);
