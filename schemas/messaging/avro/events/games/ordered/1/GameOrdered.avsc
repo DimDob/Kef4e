@@ -1,0 +1,22 @@
+{
+  "name": "GameOrdered",
+  "namespace": "schemas.messaging.avro.events.games.ordered",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": {
+        "type": "string",
+        "logicalType": "UUID"
+      }
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name":"price",
+      "type": "float"
+    }
+  ]
+}

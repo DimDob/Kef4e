@@ -5,58 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e29fcb-f9ec-4744-8718-c00034ae4f5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Controller/GamesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Controller/GamesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Entity/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Repository/GamesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Repository/GamesRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/CRUDService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/CRUDService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/GamesController.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/GamesController.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/GamesServiceImpl.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Controller/GamesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Controller/GamesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Entity/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Entity/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Repository/GamesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Repository/GamesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/CRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/CRUDService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/BackendEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Controller/GamesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Entity/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Repository/GamesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/CRUDService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Publisher/RabbitMQProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Publisher/RabbitMQProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/classes/com.example.demo.Kef4eApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/classes/com.example.demo.Kef4eApplicationTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/packages/com.example.demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/reports/tests/test/packages/com.example.demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/TEST-com.example.demo.Kef4eApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/TEST-com.example.demo.Kef4eApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/demo/Kef4eApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/demo/Kef4eApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/demo-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.demo.Kef4eApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/applications.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.demo.Kef4eApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,44 +93,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Engine" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Engine" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="source generation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
                 <item name="Engine" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Engine" type="2d1252cf:ModuleNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Frontend" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Frontend" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Frontend" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -168,6 +145,10 @@
   "keyToString": {
     "Gradle.Build Kef4e.executor": "Run",
     "Gradle.Kef4e [bootRun].executor": "Run",
+    "Gradle.Kef4e [generateAvroJava].executor": "Run",
+    "Gradle.Kef4e [generateAvroProtocol].executor": "Run",
+    "Gradle.Kef4e [generateTestAvroJava].executor": "Run",
+    "Gradle.Kef4e [generateTestAvroProtocol].executor": "Run",
     "Gradle.Kef4e:Engine [:Engine:BackendEngine.main()].executor": "Run",
     "Gradle.Kef4e:Engine [build].executor": "Run",
     "Gradle.Kef4e:Frontend [bootRun].executor": "Run",
@@ -185,28 +166,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amd\Desktop\Kef4e" />
+      <recent name="C:\Users\amd\Desktop\Kef4e\Engine" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amd\Desktop\Kef4e\schemas\messaging\avro\events\games\ordered\1" />
+      <recent name="C:\Users\amd\Desktop\Kef4e" />
+      <recent name="C:\Users\amd\Desktop\Kef4e\Engine\src\main\schemas\messaging\avro\events\games\ordered" />
+      <recent name="C:\Users\amd\Desktop\Kef4e\Engine\src\main" />
       <recent name="$PROJECT_DIR$/Frontend" />
-      <recent name="$PROJECT_DIR$/Engine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BackendEngine">
-    <configuration name="BackendEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../jdk-17_windows-x64_bin/jdk-17.0.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.BackendEngine" />
-      <module name="demo.Engine.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kef4e [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Kef4e [generateAvroJava]">
+    <configuration name="Kef4e [generateAvroJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -217,7 +190,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="generateAvroJava" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,7 +201,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Kef4e [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Kef4e [generateAvroProtocol]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -239,7 +212,51 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="generateAvroProtocol" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Kef4e [generateTestAvroJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateTestAvroJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Kef4e [generateTestAvroProtocol]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateTestAvroProtocol" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -272,35 +289,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Kef4e:Frontend [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Frontend" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Kef4e [generateAvroJava]" />
+        <item itemvalue="Gradle.Kef4e [generateTestAvroProtocol]" />
+        <item itemvalue="Gradle.Kef4e [generateTestAvroJava]" />
+        <item itemvalue="Gradle.Kef4e [generateAvroProtocol]" />
         <item itemvalue="Gradle.Kef4e:Engine [build]" />
-        <item itemvalue="Gradle.Kef4e [bootRun]" />
-        <item itemvalue="Gradle.Kef4e:Frontend [bootRun]" />
-        <item itemvalue="Application.BackendEngine" />
-        <item itemvalue="Gradle.Kef4e [dependencies]" />
       </list>
     </recent_temporary>
   </component>
