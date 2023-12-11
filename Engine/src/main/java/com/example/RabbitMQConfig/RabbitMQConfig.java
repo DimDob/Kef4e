@@ -11,31 +11,31 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQConfig {
-    @Value("${rabbitmq.queue.name}")
-    private String queue;
+    @Value("${rabbitmq.gameOrdered_queue.name}")
+    private String gameOrderedQueue;
 
-    @Value("${rabbitmq.exchange.name}")
-    private String exchange;
+    @Value("${rabbitmq.gameOrdered_exchange.name}")
+    private String gameOrderedExchange;
 
-    @Value("${rabbitmq.routing_key.name}")
-    private String routing_key;
+    @Value("${rabbitmq.gameOrdered_routing_key.name}")
+    private String gameOrderedRoutingKey;
 
     @Bean
-    public Queue queue(){
-        return new Queue(queue);
+    public Queue onOrderQueue(){
+        return new Queue(gameOrderedQueue);
     }
 
     @Bean
-    public TopicExchange exchange() {
-        return new TopicExchange(exchange);
+    public TopicExchange onOrderExchange() {
+        return new TopicExchange(gameOrderedExchange);
     }
 
-    //binding between queue and exchange using routing_key
+    //binding between queue and exchange using routing_key for ordering book
     @Bean
-    public Binding binding() {
+    public Binding onOrderBinding() {
         return BindingBuilder
-                .bind(queue())
-                .to(exchange())
-                .with(routing_key);
+                .bind(onOrderQueue())
+                .to(onOrderExchange())
+                .with(gameOrderedRoutingKey);
     }
 }
