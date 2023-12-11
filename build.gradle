@@ -35,12 +35,23 @@ dependencies {
 
 def generateAvro = tasks.register("generateAvro", GenerateAvroJavaTask) {
     source("schemas/messaging/avro")
+    outputDir = file("./build/generated/avro")
     outputDir = file("Engine/build/generated/avro")
 }
 
 tasks.named("compileJava").configure {
     source(generateAvro)
 }
+
+sourceSets {
+    main {
+        java {
+            srcDirs += 'Engine/build/generated/avro'
+        }
+    }
+}
+
+
 tasks.named('test') {
     useJUnitPlatform()
 }
