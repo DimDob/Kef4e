@@ -16,7 +16,7 @@ public class EventsPublisher {
 
     private final RabbitMQProducer rabbitMQProducer;
 
-    public void buildAndSend(Game game) { //build payload for ordered game
+    public void orderBook(Game game) { //build payload for ordered game
         float randomPrice = new Random().nextFloat() * 100;
 
         GameOrdered gameOrdered = GameOrdered.newBuilder()
@@ -27,5 +27,4 @@ public class EventsPublisher {
         rabbitMQProducer.sendMessage(gameOrdered);
 
     }
-
 }

@@ -30,6 +30,6 @@ export class CardComponent implements OnInit {
   }
 
   onOpenDescription(game: any) {
-    return game.short_description
+    return `${game.title} - ${game.short_description}` 
   }
 }

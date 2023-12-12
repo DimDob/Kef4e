@@ -2,6 +2,7 @@ package com.example.Service;
 
 import com.example.Entity.Game;
 import com.example.Repository.GamesRepository;
+import com.example.Service.MessagePublisher.EventsPublisher;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -22,6 +23,8 @@ public class GamesServiceImpl implements GamesService {
 
     @Autowired
     private GamesRepository gamesRepository;
+
+    private EventsPublisher eventsPublisher;
 
     public GamesServiceImpl(ObjectMapper objectMapper, CRUDService crudService) {
         this.objectMapper = objectMapper;
@@ -68,6 +71,8 @@ public class GamesServiceImpl implements GamesService {
         if (game.isEmpty()) {
             log.info("Game with title " + title + " has not been found!");
         }
+        eventsPublisher.orderBook(game.get());
+        log.info("Game with title " + title + " has been ordered!");
         return game;
     }
 
