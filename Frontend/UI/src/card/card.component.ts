@@ -4,11 +4,14 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ActivatedRoute } from '@angular/router';
+import { LikeButtonModalComponent } from './like-button-modal/like-button-modal.component';
+import { MatIconModule } from '@angular/material/icon'
+
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [MatCardModule, CommonModule, MatTooltipModule],
+  imports: [MatCardModule, CommonModule, MatTooltipModule, LikeButtonModalComponent, MatIconModule],
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
@@ -48,4 +51,5 @@ export class CardComponent implements OnInit {
   onOpenDescription(game: any) {
     return `${game.title} - ${game.short_description}` 
   }
+
 }

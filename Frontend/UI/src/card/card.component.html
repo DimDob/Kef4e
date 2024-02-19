@@ -1,16 +1,19 @@
 <div *ngFor="let game of games">
-  <mat-card class="example-card">
+  <mat-card class="card-container">
     <mat-card-header>
-      <div mat-card-avatar class="example-header-image">
+      <div mat-card-avatar class="header-image">
         <img [src]="game.thumbnail" alt="Thumbnail">
       </div>
     </mat-card-header>
     <mat-card-content>
       <p>{{ game.description }}</p>
     </mat-card-content>
-    <mat-card-actions>
+    <mat-card-actions class="card-container-actions">
       <button mat-button>Order</button>
-      <button mat-button  (click)=onOpenDescription(game) matTooltip="{{ onOpenDescription(game) }}">Short Description</button>
+      <button mat-button (click)="onOpenDescription(game)" matTooltip="{{ onOpenDescription(game) }}">Short Description</button>
     </mat-card-actions>
+    <div class="like-button">
+      <like-button-modal></like-button-modal>
+    </div>
   </mat-card>
 </div>
