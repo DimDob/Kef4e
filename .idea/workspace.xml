@@ -6,61 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d5e29fcb-f9ec-4744-8718-c00034ae4f5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/demo.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/demo.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/GamesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/MessagePublisher/EventsPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/classes/java/main/com/example/Service/MessagePublisher/EventsPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/libs/Engine-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/compileTransaction/stash-dir/RabbitMQConfig.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/GamesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/MessagePublisher/EventsPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/java/com/example/Service/MessagePublisher/EventsPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/bin/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/bin/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/card/card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/card/card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/card/card.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/card/card.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/card/card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/card/card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/UI/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/UI/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/classes/java/main/com/example/demo/Frontend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/classes/java/test/com/example/demo/Kef4eApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/libs/Frontend-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/classes/com.example.demo.Kef4eApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/reports/tests/test/packages/com.example.demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/TEST-com.example.demo.Kef4eApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,30 +92,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build Kef4e.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e [bootRun].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e [generateAvroJava].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e [generateAvroProtocol].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e [generateTestAvroJava].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e [generateTestAvroProtocol].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e:Engine [:Engine:BackendEngine.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e:Engine [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Kef4e:Frontend [bootRun].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/amd/Desktop/Kef4e&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dimitar.dobrev/Desktop/Kef4e/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Kef4e.executor": "Run",
+    "Gradle.Kef4e [bootRun].executor": "Run",
+    "Gradle.Kef4e [generateAvroJava].executor": "Run",
+    "Gradle.Kef4e [generateAvroProtocol].executor": "Run",
+    "Gradle.Kef4e [generateTestAvroJava].executor": "Run",
+    "Gradle.Kef4e [generateTestAvroProtocol].executor": "Run",
+    "Gradle.Kef4e:Engine [:Engine:BackendEngine.main()].executor": "Run",
+    "Gradle.Kef4e:Engine [build].executor": "Run",
+    "Gradle.Kef4e:Frontend [bootRun].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/amd/Desktop/Kef4e",
+    "onboarding.tips.debug.path": "/Users/dimitar.dobrev/Desktop/Kef4e/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\amd\Desktop\Kef4e" />
