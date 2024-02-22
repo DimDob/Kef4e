@@ -3,14 +3,16 @@ import { AppComponent } from "./app.component";
 import { BrowserModule } from "@angular/platform-browser";
 import { CardComponent } from "../card/card.component";
 import { LikeButtonComponent } from "../card/like-button/like-button.component";
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
     declarations: [
         AppComponent,
         CardComponent,
-        LikeButtonComponent
+        LikeButtonComponent,
     ],
-    imports: [BrowserModule],
+    imports: [BrowserModule, MatButtonToggleModule, FormsModule],
     providers:[],
     bootstrap:[AppComponent]
 })

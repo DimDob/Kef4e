@@ -4,9 +4,8 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ActivatedRoute } from '@angular/router';
-import { MatIconModule } from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
 import { LikeButtonComponent } from './like-button/like-button.component';
-
 
 @Component({
   selector: 'app-card',
@@ -21,8 +20,7 @@ export class CardComponent implements OnInit {
   games: any[] = [];  
   pageNumber: number | undefined;
 
-  constructor(private http: HttpClient, private route: ActivatedRoute, @Inject(PLATFORM_ID) private platformId: Object
-  ) {}
+  constructor(private http: HttpClient, private route: ActivatedRoute, @Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
     this.route.params.subscribe(params => {
@@ -30,10 +28,12 @@ export class CardComponent implements OnInit {
    
       if (isPlatformBrowser(this.platformId)) {
         console.log(`Platform Id -> ${this.platformId}`);
+        console.log(`Platform Id -> ${this.platformId}`);
+        
+        console.log(`Platform Id -> ${this.platformId}`); 
         
         this.fetchGames();
       }
-
     });
   }
 
@@ -56,7 +56,7 @@ export class CardComponent implements OnInit {
   }
 
   onOpenDescription(game: any) {
+    
     return `${game.title} - ${game.short_description}` 
   }
-
 }
