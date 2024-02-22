@@ -4,12 +4,12 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 
 @Component({
-  selector: 'like-button-modal',
+  selector: 'like-button',
   standalone: true,
   imports: [MatButtonModule, MatDividerModule, MatIconModule],
-  templateUrl: './like-button-modal.component.html',
-  styleUrl: './like-button-modal.component.css',
+  templateUrl: './like-button.component.html',
+  styleUrl: './like-button.component.css',
 })
-export class LikeButtonModalComponent {
+export class LikeButtonComponent {
 
 }

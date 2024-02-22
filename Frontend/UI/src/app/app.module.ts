@@ -2,13 +2,13 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { BrowserModule } from "@angular/platform-browser";
 import { CardComponent } from "../card/card.component";
-import { LikeButtonModalComponent } from "../card/like-button-modal/like-button-modal.component";
+import { LikeButtonComponent } from "../card/like-button/like-button.component";
 
 @NgModule({
     declarations: [
         AppComponent,
         CardComponent,
-        LikeButtonModalComponent
+        LikeButtonComponent
     ],
     imports: [BrowserModule],
     providers:[],

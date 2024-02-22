@@ -1,17 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClient } from '@angular/common/http';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ActivatedRoute } from '@angular/router';
-import { LikeButtonModalComponent } from './like-button-modal/like-button-modal.component';
 import { MatIconModule } from '@angular/material/icon'
+import { LikeButtonComponent } from './like-button/like-button.component';
 
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [MatCardModule, CommonModule, MatTooltipModule, LikeButtonModalComponent, MatIconModule],
+  imports: [MatCardModule, CommonModule, MatTooltipModule, LikeButtonComponent, MatIconModule],
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
@@ -21,12 +21,19 @@ export class CardComponent implements OnInit {
   games: any[] = [];  
   pageNumber: number | undefined;
 
-  constructor(private http: HttpClient, private route: ActivatedRoute) {}
+  constructor(private http: HttpClient, private route: ActivatedRoute, @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   ngOnInit() {
     this.route.params.subscribe(params => {
       this.pageNumber = +params['pageNumber'] || 1;
-      this.fetchGames();
+   
+      if (isPlatformBrowser(this.platformId)) {
+        console.log(`Platform Id -> ${this.platformId}`);
+        
+        this.fetchGames();
+      }
+
     });
   }
 
